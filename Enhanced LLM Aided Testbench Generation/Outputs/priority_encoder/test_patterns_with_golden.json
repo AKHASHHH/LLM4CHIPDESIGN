@@ -1,0 +1,57 @@
+[
+  {
+    "in": 0,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 1,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 2,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 4,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 3,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 5,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 6,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 7,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 1,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 2,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  },
+  {
+    "in": 4,
+    "expected_outputs": null,
+    "error": "priority_encoder_3bit_golden() got an unexpected keyword argument 'in'"
+  }
+]
