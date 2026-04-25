@@ -1,0 +1,6 @@
+# synth_adder.ys
+read_verilog $env(ADDER_FILE)
+hierarchy -check -top $env(TOP_MODULE)
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+stat

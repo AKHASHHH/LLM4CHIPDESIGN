@@ -1,0 +1,116 @@
+{
+  "mode": "delay",
+  "baseline": "KSA8",
+  "best_ppa": {
+    "cell_count": 3,
+    "wire_count": 7,
+    "area_um2": 3,
+    "logic_levels": null
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "ppa": {
+        "cell_count": 3,
+        "wire_count": 7,
+        "area_um2": 3,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_1.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 2,
+      "ppa": null,
+      "status": "failed"
+    },
+    {
+      "iteration": 3,
+      "ppa": {
+        "cell_count": 34,
+        "wire_count": 31,
+        "area_um2": 34,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_3.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 4,
+      "ppa": {
+        "cell_count": 51,
+        "wire_count": 48,
+        "area_um2": 51,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_4.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 5,
+      "ppa": {
+        "cell_count": 34,
+        "wire_count": 37,
+        "area_um2": 34,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_5.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 6,
+      "ppa": {
+        "cell_count": 51,
+        "wire_count": 50,
+        "area_um2": 51,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_6.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 7,
+      "ppa": {
+        "cell_count": 39,
+        "wire_count": 38,
+        "area_um2": 39,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_7.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 8,
+      "ppa": {
+        "cell_count": 34,
+        "wire_count": 31,
+        "area_um2": 34,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_8.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 9,
+      "ppa": {
+        "cell_count": 51,
+        "wire_count": 48,
+        "area_um2": 51,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_9.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 10,
+      "ppa": {
+        "cell_count": 36,
+        "wire_count": 36,
+        "area_um2": 36,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_b_delay/candidate_10.v",
+      "status": "ok"
+    }
+  ]
+}

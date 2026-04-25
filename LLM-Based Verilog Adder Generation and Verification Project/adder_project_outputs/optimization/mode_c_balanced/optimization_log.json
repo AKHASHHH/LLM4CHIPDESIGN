@@ -1,0 +1,122 @@
+{
+  "mode": "balanced",
+  "baseline": "RCA8",
+  "best_ppa": {
+    "cell_count": 2,
+    "wire_count": 4,
+    "area_um2": 2,
+    "logic_levels": null
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "ppa": {
+        "cell_count": 5,
+        "wire_count": 8,
+        "area_um2": 5,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_1.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 2,
+      "ppa": {
+        "cell_count": 5,
+        "wire_count": 8,
+        "area_um2": 5,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_2.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 3,
+      "ppa": {
+        "cell_count": 16,
+        "wire_count": 16,
+        "area_um2": 16,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_3.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 4,
+      "ppa": {
+        "cell_count": 5,
+        "wire_count": 8,
+        "area_um2": 5,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_4.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 5,
+      "ppa": {
+        "cell_count": 16,
+        "wire_count": 17,
+        "area_um2": 16,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_5.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 6,
+      "ppa": {
+        "cell_count": 13,
+        "wire_count": 9,
+        "area_um2": 13,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_6.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 7,
+      "ppa": {
+        "cell_count": 16,
+        "wire_count": 17,
+        "area_um2": 16,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_7.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 8,
+      "ppa": {
+        "cell_count": 5,
+        "wire_count": 8,
+        "area_um2": 5,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_8.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 9,
+      "ppa": {
+        "cell_count": 5,
+        "wire_count": 8,
+        "area_um2": 5,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_9.v",
+      "status": "ok"
+    },
+    {
+      "iteration": 10,
+      "ppa": {
+        "cell_count": 2,
+        "wire_count": 4,
+        "area_um2": 2,
+        "logic_levels": null
+      },
+      "file": "adder_project/optimization/mode_c_balanced/candidate_10.v",
+      "status": "ok"
+    }
+  ]
+}

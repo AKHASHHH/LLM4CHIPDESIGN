@@ -1,0 +1,7 @@
+read_verilog Verilog-Adders/Kogge-Stone Adder/KSA8.v
+rename KSA8 gold
+read_verilog adder_project/optimization/mode_b_delay/best_adder.v
+rename adder8 gate
+equiv_make gold gate
+equiv_simple
+equiv_status

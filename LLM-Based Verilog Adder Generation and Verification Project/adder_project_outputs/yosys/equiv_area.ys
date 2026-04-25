@@ -1,0 +1,7 @@
+read_verilog Verilog-Adders/Carry Ripple Adder/RCA8.v
+rename RCA8 gold
+read_verilog adder_project/optimization/mode_a_area/best_adder.v
+rename adder8 gate
+equiv_make gold gate
+equiv_simple
+equiv_status
