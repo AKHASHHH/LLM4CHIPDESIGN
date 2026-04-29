@@ -1,0 +1,8 @@
+=== aes (Trojan 3: S-box Entry Corruption) ===
+
+   Number of cells:              27588
+   Delta vs golden:              -12 cells (-0.04%)
+
+   Zero extra logic added. Single constant change in ROM.
+
+Synthesis: Yosys 0.33 | Liberty: sky130_fd_sc_hd__tt_025C_1v80.lib

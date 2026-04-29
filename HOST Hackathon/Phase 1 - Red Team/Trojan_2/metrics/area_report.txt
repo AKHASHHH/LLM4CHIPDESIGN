@@ -1,0 +1,8 @@
+=== aes (Trojan 2: Counter-Based DoS) ===
+
+   Number of cells:              27729
+   Delta vs golden:              +129 cells (+0.47%)
+
+   Overhead: 21 FFs (20-bit counter + lock) + increment logic + ready gate
+
+Synthesis: Yosys 0.33 | Liberty: sky130_fd_sc_hd__tt_025C_1v80.lib

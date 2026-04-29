@@ -1,0 +1,8 @@
+=== aes (Trojan 1: Key-Triggered Output Corruption) ===
+
+   Number of cells:              27845
+   Delta vs golden:              +245 cells (+0.89%)
+
+   Overhead: 1 FF (arm reg) + 32-bit comparator + 128-bit XOR gate
+
+Synthesis: Yosys 0.33 | Liberty: sky130_fd_sc_hd__tt_025C_1v80.lib

@@ -1,0 +1,15 @@
+=== aes (Golden / Unmodified) ===
+
+   Number of wires:               5868
+   Number of wire bits:          73783
+   Number of cells:              27600
+     $_AND_                       3624
+     $_DFFE_PN0P_                 2851
+     $_DFFE_PN1P_                    4
+     $_DFF_PN0_                    132
+     $_MUX_                       2499
+     $_NOT_                       2248
+     $_OR_                       13113
+     $_XOR_                       3129
+
+Synthesis: Yosys 0.33 | Liberty: sky130_fd_sc_hd__tt_025C_1v80.lib
