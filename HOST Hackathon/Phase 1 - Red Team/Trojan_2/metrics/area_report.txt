@@ -1,0 +1,26 @@
+# Trojan 2 (Encryption Weakening) — Synthesis Metrics
+# Modified file: aes_encipher_block.v
+# Tool: Yosys 0.33, techmap to generic cells
+
+=== aes (Trojan 2: Reduced-Round Encryption) ===
+
+   Number of cells:              27632
+     $_AND_                       3627
+     $_DFFE_PN0P_                 2852
+     $_DFFE_PN1P_                    4
+     $_DFF_PN0_                    132
+     $_MUX_                       2502
+     $_NOT_                       2256
+     $_OR_                       13128
+     $_XOR_                       3131
+
+--- PPA Overhead vs Golden Baseline ---
+Golden cells:  27600
+Trojan cells:  27632
+Delta:         +32 cells
+Overhead:      +0.12%
+
+Breakdown of added logic:
+  - 1 flip-flop (reduced_mode_reg)
+  - 16-bit comparator (block[127:112] == 16'hE0E0)
+  - 4-bit MUX on num_rounds override

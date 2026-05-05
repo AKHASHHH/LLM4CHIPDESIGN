@@ -1,0 +1,27 @@
+# Trojan 1 (Key Leakage) — Synthesis Metrics
+# Modified file: aes_core.v
+# Tool: Yosys 0.33, techmap to generic cells
+
+=== aes (Trojan 1: Key Leakage via Ciphertext) ===
+
+   Number of cells:              27898
+     $_AND_                       3628
+     $_DFFE_PN0P_                 2855
+     $_DFFE_PN1P_                    4
+     $_DFF_PN0_                    132
+     $_MUX_                       2627
+     $_NOT_                       2262
+     $_OR_                       13130
+     $_XOR_                       3260
+
+--- PPA Overhead vs Golden Baseline ---
+Golden cells:  27600
+Trojan cells:  27898
+Delta:         +298 cells
+Overhead:      +1.08%
+
+Breakdown of added logic:
+  - 4 flip-flops (seq_match_cnt register)
+  - 16-bit comparator (trigger pattern match)
+  - 128-bit 2:1 MUX (result selection)
+  - 128-bit XOR (key ^ muxed_new_block)

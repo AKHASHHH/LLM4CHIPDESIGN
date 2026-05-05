@@ -1,0 +1,974 @@
+{
+  "project": "cv32e40p_13",
+  "results": [
+    {
+      "file": "cv32e40p_aligner.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_aligner.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_alu.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_alu.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_alu_div.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_alu_div.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_apu_disp.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_apu_disp.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_compressed_decoder.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_compressed_decoder.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_controller.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_controller.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_core.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_core.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_cs_registers.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_cs_registers.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_decoder.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_decoder.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_ex_stage.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_ex_stage.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_ff_one.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_ff_one.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_fifo.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_fifo.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_fp_wrapper.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_fp_wrapper.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_hwloop_regs.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_hwloop_regs.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_id_stage.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_id_stage.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_if_stage.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_if_stage.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_int_controller.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_int_controller.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_load_store_unit.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_load_store_unit.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_mult.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_mult.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_obi_interface.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_obi_interface.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_popcnt.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_popcnt.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_prefetch_buffer.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_prefetch_buffer.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_prefetch_controller.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_prefetch_controller.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_register_file_ff.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_register_file_ff.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_register_file_latch.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_register_file_latch.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_sleep_unit.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_sleep_unit.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_top.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/cv32e40p_top.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_apu_core_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/include/cv32e40p_apu_core_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_fpu_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/include/cv32e40p_fpu_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/include/cv32e40p_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "addr_decode.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/addr_decode.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "binary_to_gray.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/binary_to_gray.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cb_filter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cb_filter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cb_filter_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cb_filter_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cdc_2phase.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cdc_2phase.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cdc_fifo_2phase.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cdc_fifo_2phase.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cdc_fifo_gray.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cdc_fifo_gray.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cf_math_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/cf_math_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "clk_div.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/clk_div.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "counter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/counter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "delta_counter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/delta_counter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "clock_divider.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/clock_divider.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "clock_divider_counter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/clock_divider_counter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fifo_v1.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/fifo_v1.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fifo_v2.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/fifo_v2.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "find_first_one.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/find_first_one.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "generic_LFSR_8bit.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/generic_LFSR_8bit.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "generic_fifo.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/generic_fifo.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "generic_fifo_adv.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/generic_fifo_adv.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "prioarbiter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/prioarbiter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pulp_sync.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/pulp_sync.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pulp_sync_wedge.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/pulp_sync_wedge.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "rrarbiter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/rrarbiter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "sram.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/deprecated/sram.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "ecc_decode.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/ecc_decode.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "ecc_encode.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/ecc_encode.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "ecc_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/ecc_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "edge_detect.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/edge_detect.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "edge_propagator.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/edge_propagator.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "edge_propagator_rx.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/edge_propagator_rx.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "edge_propagator_tx.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/edge_propagator_tx.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "exp_backoff.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/exp_backoff.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fall_through_register.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/fall_through_register.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fifo_v3.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/fifo_v3.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "gray_to_binary.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/gray_to_binary.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "id_queue.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/id_queue.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "isochronous_spill_register.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/isochronous_spill_register.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "lfsr.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/lfsr.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "lfsr_16bit.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/lfsr_16bit.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "lfsr_8bit.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/lfsr_8bit.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "lzc.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/lzc.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "max_counter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/max_counter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "mv_filter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/mv_filter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "onehot_to_bin.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/onehot_to_bin.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "plru_tree.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/plru_tree.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "popcount.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/popcount.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "rr_arb_tree.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/rr_arb_tree.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "rstgen.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/rstgen.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "rstgen_bypass.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/rstgen_bypass.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "serial_deglitch.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/serial_deglitch.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "shift_reg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/shift_reg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "spill_register.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/spill_register.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_arbiter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_arbiter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_arbiter_flushable.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_arbiter_flushable.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_delay.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_delay.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_demux.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_demux.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_fifo.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_fifo.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_filter.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_filter.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_fork.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_fork.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_fork_dynamic.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_fork_dynamic.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_intf.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_intf.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_join.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_join.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_mux.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_mux.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_omega_net.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_omega_net.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_register.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_register.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_to_mem.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_to_mem.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "stream_xbar.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/stream_xbar.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "sub_per_hash.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/sub_per_hash.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "sync.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/sync.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "sync_wedge.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/sync_wedge.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "unread.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_common_cells/src/unread.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_cast_multi.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_cast_multi.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_classifier.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_classifier.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_divsqrt_multi.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_multi.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_divsqrt_th_32.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_th_32.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_fma.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_fma.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_fma_multi.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_fma_multi.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_noncomp.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_noncomp.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_opgroup_block.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_block.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_opgroup_fmt_slice.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_fmt_slice.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_opgroup_multifmt_slice.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_multifmt_slice.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_rounding.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_rounding.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_top.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/src/fpnew_top.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "gated_clk_cell.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_ctrl.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ctrl.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_ff1.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ff1.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_pack_single.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_pack_single.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_prepare.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_prepare.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_round_single.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_round_single.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_special.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_special.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_srt_single.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_srt_single.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fdsu_top.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_top.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fpu_dp.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_dp.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fpu_frbus.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_frbus.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "pa_fpu_src_type.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_src_type.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_EX_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_EX_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_ID_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_ID_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_assert.sv",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "magic_constant_comparator",
+          "severity": "MEDIUM",
+          "line": 69,
+          "matched_text": "== 32'h1000",
+          "description": "Comparator against a magic constant (potential trigger)",
+          "context": "            boot_addr_i == 32'h1000_0000;"
+        },
+        {
+          "type": "magic_constant_comparator",
+          "severity": "MEDIUM",
+          "line": 74,
+          "matched_text": "== 32'h2000",
+          "description": "Comparator against a magic constant (potential trigger)",
+          "context": "            mtvec_addr_i == 32'h2000_0000;"
+        },
+        {
+          "type": "magic_constant_comparator",
+          "severity": "MEDIUM",
+          "line": 79,
+          "matched_text": "== 32'h3000",
+          "description": "Comparator against a magic constant (potential trigger)",
+          "context": "            dm_halt_addr_i == 32'h3000_0000;"
+        },
+        {
+          "type": "magic_constant_comparator",
+          "severity": "MEDIUM",
+          "line": 84,
+          "matched_text": "== 32'h4000",
+          "description": "Comparator against a magic constant (potential trigger)",
+          "context": "            dm_exception_addr_i == 32'h4000_0000;"
+        }
+      ]
+    },
+    {
+      "file": "cv32e40p_bind.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_bind.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_controller_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_controller_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_formal_top.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/cv32e40p_formal_top.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "data_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/data_assert.sv",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 52,
+          "matched_text": "s_outstanding_cnt <= s_outstanding_cnt +",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "          s_outstanding_cnt <= s_outstanding_cnt + 1;"
+        }
+      ]
+    },
+    {
+      "file": "debug_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/debug_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "fpnew_divsqrt_th_32_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/fpnew_divsqrt_th_32_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "insn_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/insn_assert.sv",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 50,
+          "matched_text": "s_outstanding_cnt <= s_outstanding_cnt +",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "          s_outstanding_cnt <= s_outstanding_cnt + 1;"
+        }
+      ]
+    },
+    {
+      "file": "interrupt_assert.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/formal/src/interrupt_assert.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_0p_0f_0z_0lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_0f_0z_0lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_0z_0lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_0z_1lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_0z_2lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_1z_0lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_1z_1lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_1z_2lat_0c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_config_pkg.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/config_1p_1f_1z_2lat_1c/cv32e40p_config_pkg.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "cv32e40p_wrapper.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/lint/cv32e40p_wrapper.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "constraints.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/constraints.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "core_checker.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/core_checker.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "io.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/io.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "other_bindings.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/other_bindings.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "obi_dmem.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/vips/obi_dmem.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "obi_imem.sv",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/cv32e40p/cv32e40p_13/scripts/riscv_isa_formal/verif/vips/obi_imem.sv",
+      "verdict": "CLEAN",
+      "findings": []
+    }
+  ]
+}

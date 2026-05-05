@@ -1,0 +1,270 @@
+{
+  "project": "ethmac_01",
+  "results": [
+    {
+      "file": "eth_host.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/eth_host.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_memory.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/eth_memory.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_phy.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/eth_phy.v",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 398,
+          "matched_text": "md_transfer_cnt <= md_transfer_cnt +",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "      md_transfer_cnt <= md_transfer_cnt + 1'b1;"
+        },
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 1017,
+          "matched_text": "tx_cnt <= tx_cnt +",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "      tx_cnt <= tx_cnt + 1;"
+        }
+      ]
+    },
+    {
+      "file": "eth_phy_defines.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/eth_phy_defines.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "wb_bus_mon.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/wb_bus_mon.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "wb_master32.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/wb_master32.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "wb_master_behavioral.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/wb_master_behavioral.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "wb_model_defines.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/wb_model_defines.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "wb_slave_behavioral.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/bench/verilog/wb_slave_behavioral.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_clockgen.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_clockgen.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_cop.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_cop.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_crc.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_crc.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_fifo.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_fifo.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_maccontrol.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_maccontrol.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_macstatus.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_macstatus.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_miim.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_miim.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_outputcontrol.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_outputcontrol.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_random.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_random.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_receivecontrol.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_receivecontrol.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_register.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_register.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_registers.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_registers.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_rxaddrcheck.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_rxaddrcheck.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_rxcounters.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_rxcounters.v",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "magic_constant_comparator",
+          "severity": "MEDIUM",
+          "line": 172,
+          "matched_text": "== 16'hffff",
+          "description": "Comparator against a magic constant (potential trigger)",
+          "context": "assign ByteCntMax       = ByteCnt == 16'hffff;"
+        }
+      ]
+    },
+    {
+      "file": "eth_rxethmac.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_rxethmac.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_rxstatem.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_rxstatem.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_shiftreg.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_shiftreg.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_spram_256x32.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_spram_256x32.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_top.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_top.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_transmitcontrol.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_transmitcontrol.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_txcounters.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_txcounters.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_txethmac.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_txethmac.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_txstatem.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_txstatem.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "eth_wishbone.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/eth_wishbone.v",
+      "verdict": "SUSPICIOUS",
+      "findings": [
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 1167,
+          "matched_text": "tx_burst_cnt <= tx_burst_cnt+",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "            tx_burst_cnt <= tx_burst_cnt+3'h1;"
+        },
+        {
+          "type": "counter_with_saturation",
+          "severity": "LOW",
+          "line": 1194,
+          "matched_text": "rx_burst_cnt <= rx_burst_cnt+",
+          "description": "Counter register that saturates (potential sequential trigger)",
+          "context": "            rx_burst_cnt <= rx_burst_cnt+3'h1;"
+        }
+      ]
+    },
+    {
+      "file": "ethmac.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/ethmac.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "ethmac_defines.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/ethmac_defines.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "timescale.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/timescale.v",
+      "verdict": "CLEAN",
+      "findings": []
+    },
+    {
+      "file": "xilinx_dist_ram_16x32.v",
+      "path": "/home/claude/HOST_AHA_Challenge_2026-main/blue-team_release/ethmac/ethmac_01/rtl/verilog/xilinx_dist_ram_16x32.v",
+      "verdict": "CLEAN",
+      "findings": []
+    }
+  ]
+}
