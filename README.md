@@ -288,3 +288,13 @@ adder_project_outputs/
 - All notebooks are designed to run top-to-bottom in Google Colab.
 - Simulation commands use `iverilog -g2012` for SystemVerilog compatibility.
 - The HOST Hackathon Blue Team API-based detector requires an Anthropic API key (`ANTHROPIC_API_KEY`). The heuristic detector runs offline with no API needed.
+
+---
+
+## 👤 Author
+
+---
+
+**D. Akhash Krishna**
+
+GitHub: [LLM4CHIPDESIGN](https://github.com/AKHASHHH/LLM4CHIPDESIGN)
